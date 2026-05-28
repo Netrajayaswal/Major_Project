@@ -1,0 +1,21 @@
+text_model_name: google/mt5-small
+text_checkpoint_dir: outputs/checkpoints/text2gloss
+pose_checkpoint_path: outputs/checkpoints/pose_transformer.pt
+video_output_dir: outputs/videos
+fps: 20
+canvas_size: 512
+frame_dim: 150
+joint_count: 75
+pose_model:
+  hidden_dim: 256
+  num_heads: 4
+  num_layers: 4
+  dropout: 0.1
+training:
+  text_epochs: 10
+  pose_epochs: 30
+  text_learning_rate: 0.0003
+  pose_learning_rate: 0.0003
+  batch_size: 4
+  gradient_accumulation_steps: 4
+
