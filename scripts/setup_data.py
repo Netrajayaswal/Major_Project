@@ -58,6 +58,11 @@ SENTENCE_TEMPLATES = {
 # Fallback templates for any gloss not in the dict above
 GENERIC_TEMPLATES = [
     "{gloss_lower}",
+    "I am {gloss_lower}",
+    "You are {gloss_lower}",
+    "He is {gloss_lower}",
+    "She is {gloss_lower}",
+    "It is {gloss_lower}",
     "Please sign {gloss_lower}",
     "Show me {gloss_lower}",
     "I want to say {gloss_lower}",

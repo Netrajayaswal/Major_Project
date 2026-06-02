@@ -184,6 +184,14 @@ def run_command(args):
         print("untrained/ignored text words: " + ", ".join(result["ignored_text_words"]))
     if result.get("fallback_text_words"):
         print("fingerspelled fallback words: " + ", ".join(result["fallback_text_words"]))
+    if result.get("accuracy_percent") is not None:
+        print(f"overall accuracy estimate: {result.get('accuracy_percent', 0)}%")
+    for item in result.get("sign_confidences", []):
+        sign = item.get("sign", "SIGN")
+        score = item.get("accuracy_percent", 0)
+        status = item.get("status", "estimated")
+        source = item.get("source", "pipeline")
+        print(f"  {sign}: {score}% ({status}, {source})")
     if result["mode"] == "untrained_preview":
         print("this video is an untrained renderer preview, not real sign output")
     print(f"video: {result['output_path']}")

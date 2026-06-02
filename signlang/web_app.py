@@ -24,18 +24,19 @@ INDEX_HTML = r"""<!doctype html>
   <title>Sign Language Translator</title>
   <style>
     :root {
-      --bg: #09080d;
-      --panel: #1e1f26;
-      --panel-soft: #26242d;
-      --line: rgba(207, 140, 255, 0.22);
-      --text: #f6f1ff;
-      --muted: #aaa6b4;
-      --purple: #bd75ff;
-      --purple-strong: #8d21ff;
-      --blue: #4f87ff;
-      --good: #74f0a7;
-      --warn: #ffcf7b;
-      --bad: #ff7c9b;
+      --bg: #070a12;
+      --panel: #111827;
+      --panel-soft: #172033;
+      --line: rgba(148, 163, 184, 0.18);
+      --text: #f8fafc;
+      --muted: #9aa8bd;
+      --teal: #2dd4bf;
+      --blue: #60a5fa;
+      --violet: #a78bfa;
+      --amber: #fbbf24;
+      --good: #34d399;
+      --warn: #fbbf24;
+      --bad: #fb7185;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
@@ -46,8 +47,9 @@ INDEX_HTML = r"""<!doctype html>
       min-height: 100vh;
       color: var(--text);
       background:
-        radial-gradient(circle at 25% 5%, rgba(141, 33, 255, 0.18), transparent 32rem),
-        radial-gradient(circle at 75% 35%, rgba(79, 135, 255, 0.12), transparent 32rem),
+        linear-gradient(135deg, rgba(45, 212, 191, 0.09), transparent 28rem),
+        linear-gradient(225deg, rgba(96, 165, 250, 0.11), transparent 30rem),
+        radial-gradient(circle at 50% 0%, rgba(167, 139, 250, 0.12), transparent 36rem),
         var(--bg);
     }
 
@@ -56,26 +58,28 @@ INDEX_HTML = r"""<!doctype html>
       align-items: center;
       justify-content: center;
       gap: 1rem;
-      padding: 0.7rem 1rem;
-      color: #17111c;
-      background: #e7c8ff;
+      padding: 0.75rem 1rem;
+      color: #dff9ff;
+      background: linear-gradient(90deg, rgba(45, 212, 191, 0.2), rgba(96, 165, 250, 0.2));
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
       font-weight: 800;
       letter-spacing: 0.01em;
     }
 
     .announcement span {
-      padding: 0.6rem 1.3rem;
+      padding: 0.5rem 1rem;
       border-radius: 999px;
-      background: white;
-      box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.22);
+      color: #03131a;
+      background: #b7fff4;
+      box-shadow: 0 0.5rem 1.4rem rgba(45, 212, 191, 0.18);
     }
 
     header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 1.15rem 1.5rem;
-      background: rgba(24, 24, 28, 0.92);
+      padding: 1.05rem 1.5rem;
+      background: rgba(7, 10, 18, 0.82);
       border-bottom: 1px solid rgba(255, 255, 255, 0.05);
       backdrop-filter: blur(16px);
     }
@@ -86,27 +90,29 @@ INDEX_HTML = r"""<!doctype html>
       letter-spacing: -0.04em;
     }
 
-    .brand .dot { color: var(--purple); }
+    .brand .dot { color: var(--teal); }
     .brand .by { color: #f7f0ff; opacity: 0.82; font-weight: 650; }
 
-    nav {
+    .header-metrics {
       display: flex;
       gap: 0.55rem;
       align-items: center;
+      flex-wrap: wrap;
     }
 
-    nav a {
+    .header-metrics span {
       color: var(--text);
-      text-decoration: none;
       font-weight: 800;
       padding: 0.65rem 0.85rem;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.035);
+      background: rgba(255, 255, 255, 0.055);
+      border: 1px solid rgba(255, 255, 255, 0.06);
     }
 
-    nav a.active {
-      background: linear-gradient(135deg, var(--purple-strong), #6e16f2);
-      box-shadow: 0 0.5rem 1.4rem rgba(141, 33, 255, 0.35);
+    .header-metrics span:first-child {
+      color: #061019;
+      background: linear-gradient(135deg, var(--teal), var(--blue));
+      box-shadow: 0 0.5rem 1.4rem rgba(45, 212, 191, 0.22);
     }
 
     main {
@@ -120,35 +126,35 @@ INDEX_HTML = r"""<!doctype html>
       gap: 0.6rem;
       padding: 0.7rem 1rem;
       margin: 0 0 1.1rem 0.2rem;
-      color: #d99eff;
-      border: 1px solid rgba(217, 158, 255, 0.6);
-      border-radius: 0.35rem;
-      background: rgba(60, 30, 80, 0.22);
+      color: #a7f3d0;
+      border: 1px solid rgba(45, 212, 191, 0.35);
+      border-radius: 0.7rem;
+      background: rgba(10, 23, 38, 0.72);
       font-weight: 850;
     }
 
     .notice {
-      max-width: 665px;
+      max-width: 760px;
       margin: 0 auto 1.05rem;
       padding: 0.85rem 1.15rem;
       text-align: center;
-      color: var(--muted);
-      border: 1px solid rgba(141, 33, 255, 0.35);
+      color: #d9e6f8;
+      border: 1px solid rgba(96, 165, 250, 0.28);
       border-radius: 999px;
-      background: rgba(58, 16, 84, 0.34);
+      background: rgba(17, 24, 39, 0.75);
       font-weight: 700;
     }
 
-    .notice strong { color: var(--purple-strong); }
+    .notice strong { color: var(--teal); }
 
     .translator {
       overflow: hidden;
       border: 1px solid var(--line);
       border-top: 5px solid transparent;
-      border-radius: 1.6rem 1.6rem 0.7rem 0.7rem;
+      border-radius: 1.25rem;
       background:
         linear-gradient(var(--panel), var(--panel)) padding-box,
-        linear-gradient(90deg, var(--blue), var(--purple-strong)) border-box;
+        linear-gradient(90deg, var(--teal), var(--blue), var(--violet)) border-box;
       box-shadow: 0 1.5rem 5rem rgba(0, 0, 0, 0.35);
     }
 
@@ -156,9 +162,9 @@ INDEX_HTML = r"""<!doctype html>
       display: grid;
       grid-template-columns: 1fr auto 1fr;
       align-items: center;
-      min-height: 3.75rem;
+      min-height: 3.85rem;
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-      background: rgba(255, 255, 255, 0.015);
+      background: rgba(255, 255, 255, 0.025);
     }
 
     .tabs {
@@ -172,14 +178,17 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .tab {
-      padding: 1.25rem 1rem 1.05rem;
-      border-bottom: 2px solid transparent;
+      padding: 0.75rem 0.9rem;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.045);
       white-space: nowrap;
     }
 
     .tab.active {
-      color: #d99eff;
-      border-color: #d99eff;
+      color: #8df5e8;
+      border-color: rgba(45, 212, 191, 0.32);
+      background: rgba(45, 212, 191, 0.09);
     }
 
     .swap {
@@ -198,7 +207,7 @@ INDEX_HTML = r"""<!doctype html>
     .left, .right {
       position: relative;
       min-height: 100%;
-      background: linear-gradient(145deg, rgba(255,255,255,0.018), transparent 40%);
+      background: linear-gradient(145deg, rgba(255,255,255,0.025), transparent 46%);
     }
 
     .left { border-right: 1px solid rgba(255, 255, 255, 0.08); }
@@ -207,14 +216,14 @@ INDEX_HTML = r"""<!doctype html>
       width: 100%;
       height: 100%;
       min-height: clamp(430px, 63vh, 720px);
-      padding: 2rem 1.35rem 4.5rem;
+      padding: 4.4rem 1.35rem 4.5rem;
       resize: none;
       border: 0;
       outline: 0;
       color: var(--text);
       background: transparent;
       font: inherit;
-      font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+      font-size: clamp(1.15rem, 1.55vw, 1.65rem);
       line-height: 1.45;
     }
 
@@ -239,20 +248,70 @@ INDEX_HTML = r"""<!doctype html>
       align-items: center;
     }
 
+    .voice-panel {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 0.65rem;
+      border-radius: 999px;
+      color: #cffafe;
+      background: rgba(3, 7, 18, 0.56);
+      border: 1px solid rgba(45, 212, 191, 0.2);
+      backdrop-filter: blur(12px);
+      font-size: 0.86rem;
+      font-weight: 800;
+      z-index: 2;
+    }
+
     button, .pill {
       border: 0;
       border-radius: 999px;
       color: var(--text);
-      background: rgba(255, 255, 255, 0.075);
+      background: rgba(255, 255, 255, 0.08);
       padding: 0.65rem 0.9rem;
       font: inherit;
       font-weight: 800;
       cursor: pointer;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+
+    button:hover {
+      transform: translateY(-1px);
+      background: rgba(255, 255, 255, 0.12);
     }
 
     button.primary {
-      background: linear-gradient(135deg, var(--purple-strong), #5d7cff);
-      box-shadow: 0 0.5rem 1.5rem rgba(141, 33, 255, 0.28);
+      color: #07111d;
+      background: linear-gradient(135deg, var(--teal), var(--blue));
+      box-shadow: 0 0.7rem 1.7rem rgba(45, 212, 191, 0.23);
+    }
+
+    button.voice {
+      min-width: 2.7rem;
+      padding-inline: 0.85rem;
+      color: #061019;
+      background: linear-gradient(135deg, var(--amber), #fb7185);
+      box-shadow: 0 0.7rem 1.7rem rgba(251, 191, 36, 0.18);
+    }
+
+    button.voice.listening {
+      color: #04111a;
+      background: linear-gradient(135deg, var(--teal), #86efac);
+      animation: pulseMic 1.1s ease-in-out infinite;
+    }
+
+    button.voice.unsupported {
+      color: var(--muted);
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: none;
+    }
+
+    @keyframes pulseMic {
+      0%, 100% { transform: translateY(-1px) scale(1); }
+      50% { transform: translateY(-1px) scale(1.04); }
     }
 
     button:disabled {
@@ -269,7 +328,7 @@ INDEX_HTML = r"""<!doctype html>
       user-select: none;
     }
 
-    input[type="checkbox"] { accent-color: var(--purple-strong); }
+    input[type="checkbox"] { accent-color: var(--teal); }
 
     .video-wrap {
       position: absolute;
@@ -277,10 +336,10 @@ INDEX_HTML = r"""<!doctype html>
       display: grid;
       place-items: center;
       overflow: hidden;
-      border-radius: 1.1rem;
+      border-radius: 1rem;
       background:
-        linear-gradient(135deg, rgba(141, 33, 255, 0.12), rgba(79, 135, 255, 0.08)),
-        #101116;
+        linear-gradient(135deg, rgba(45, 212, 191, 0.08), rgba(96, 165, 250, 0.12)),
+        #05070c;
       border: 1px solid rgba(255, 255, 255, 0.07);
     }
 
@@ -305,9 +364,9 @@ INDEX_HTML = r"""<!doctype html>
       display: grid;
       place-items: center;
       margin: 0 auto 1rem;
-      border-radius: 1.2rem;
-      background: rgba(141, 33, 255, 0.16);
-      color: #d99eff;
+      border-radius: 1rem;
+      background: rgba(45, 212, 191, 0.14);
+      color: #8df5e8;
       font-size: 2rem;
     }
 
@@ -319,10 +378,10 @@ INDEX_HTML = r"""<!doctype html>
 
     .meta {
       display: grid;
-      gap: 0.55rem;
-      padding: 0.9rem 1.1rem;
+      gap: 0.7rem;
+      padding: 1rem 1.1rem 1.1rem;
       border-top: 1px solid rgba(255, 255, 255, 0.08);
-      background: rgba(0, 0, 0, 0.16);
+      background: linear-gradient(180deg, rgba(4, 7, 13, 0.18), rgba(4, 7, 13, 0.36));
     }
 
     .meta-row {
@@ -346,13 +405,60 @@ INDEX_HTML = r"""<!doctype html>
       align-items: center;
       gap: 0.35rem;
       max-width: 100%;
-      padding: 0.45rem 0.65rem;
+      padding: 0.48rem 0.72rem;
       border-radius: 999px;
-      color: #e9ddff;
-      background: rgba(141, 33, 255, 0.15);
-      border: 1px solid rgba(141, 33, 255, 0.22);
+      color: #e8f8ff;
+      background: rgba(96, 165, 250, 0.1);
+      border: 1px solid rgba(96, 165, 250, 0.18);
       font-size: 0.88rem;
       font-weight: 800;
+    }
+
+    .confidence-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 0.65rem;
+      width: 100%;
+    }
+
+    .confidence-card {
+      display: grid;
+      gap: 0.5rem;
+      padding: 0.78rem 0.85rem;
+      border-radius: 0.7rem;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.035));
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    }
+
+    .confidence-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.7rem;
+      font-weight: 900;
+    }
+
+    .confidence-sign {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .confidence-score {
+      padding: 0.22rem 0.45rem;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .confidence-score.good { color: var(--good); }
+    .confidence-score.warn { color: var(--warn); }
+    .confidence-score.bad { color: var(--bad); }
+
+    .confidence-detail {
+      color: var(--muted);
+      font-size: 0.82rem;
+      line-height: 1.35;
     }
 
     .examples {
@@ -365,41 +471,43 @@ INDEX_HTML = r"""<!doctype html>
     }
 
     .examples button {
-      color: #dec4ff;
-      border: 1px solid rgba(217, 158, 255, 0.24);
-      background: rgba(217, 158, 255, 0.08);
+      color: #cffafe;
+      border: 1px solid rgba(45, 212, 191, 0.18);
+      background: rgba(45, 212, 191, 0.08);
     }
 
     @media (max-width: 900px) {
-      header, nav { flex-wrap: wrap; }
+      header, .header-metrics { flex-wrap: wrap; }
       .announcement { flex-direction: column; gap: 0.45rem; text-align: center; }
       .language-bar { grid-template-columns: 1fr; }
       .swap { display: none; }
       .panels { grid-template-columns: 1fr; }
       .left { border-right: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+      .left-footer { position: relative; inset: auto; margin: 0 1rem 1rem; }
+      textarea { min-height: 360px; padding-bottom: 1.5rem; }
       .video-wrap { position: relative; min-height: 420px; }
       .right-footer { position: relative; margin: 0 1rem 1rem; inset: auto; }
     }
   </style>
 </head>
 <body>
-    <div class="announcement">
-    <div>Local trained sign-language translator is ready</div>
-    <span>Real-time local + remote sign translation</span>
+  <div class="announcement">
+    <div>Sign translator workspace is ready</div>
+    <span>Live accuracy scoring</span>
   </div>
 
   <header>
-    <div class="brand">sign<span class="dot">.</span>Translate <span class="by">hybrid text-to-skeleton mode</span></div>
-    <nav aria-label="Navigation">
-      <a href="#" class="active">Home</a>
-      <a href="#examples">Examples</a>
-      <a href="#model">Model</a>
-    </nav>
+    <div class="brand">sign<span class="dot">.</span>Translate <span class="by">text to skeleton video</span></div>
+    <div class="header-metrics" aria-label="Translator status">
+      <span>Hybrid mode</span>
+      <span>Local + API</span>
+      <span>Per-sign accuracy</span>
+    </div>
   </header>
 
   <main>
-    <div class="tool-switch">⌘ Text</div>
-    <div class="notice">Trained signs are used when available. Unknown text can use remote sign translation for full-sentence skeleton output.</div>
+    <div class="tool-switch">Text input</div>
+    <div class="notice">Generate a skeleton sign video and see confidence for every sign in the sentence.</div>
 
     <section class="translator" aria-label="Text to sign translator">
       <div class="language-bar">
@@ -418,10 +526,15 @@ INDEX_HTML = r"""<!doctype html>
 
       <div class="panels">
         <div class="left">
+          <div class="voice-panel">
+            <button class="voice" id="voiceBtn" type="button" title="Speak text">Mic</button>
+            <span id="voiceStatus">Voice ready</span>
+          </div>
           <textarea id="sourceText" maxlength="500" placeholder="Type any sentence, for example: The robot is dancing on Mars"></textarea>
           <div class="left-footer">
             <div class="buttons">
               <button class="primary" id="generateBtn">Generate</button>
+              <button id="listenBtn" type="button">Speak</button>
               <button id="clearBtn">Clear</button>
               <label class="auto"><input id="autoToggle" type="checkbox" checked /> Real-time</label>
             </div>
@@ -434,7 +547,7 @@ INDEX_HTML = r"""<!doctype html>
             <div class="empty" id="emptyState">
               <div class="icon">☝</div>
               <h2>Output video appears here</h2>
-              <p>Start typing on the left. The app generates one skeleton video using trained data and remote fallback when needed.</p>
+              <p>Start typing on the left. The app shows the generated sign video with confidence scores for each sign.</p>
             </div>
             <video id="resultVideo" controls autoplay muted loop playsinline hidden></video>
           </div>
@@ -450,6 +563,10 @@ INDEX_HTML = r"""<!doctype html>
           <span class="chip">Gloss: <span id="glossText">—</span></span>
           <span class="chip">Mode: <span id="modeText">—</span></span>
           <span class="chip">Fallback: <span id="skippedText">—</span></span>
+          <span class="chip">Accuracy: <span id="accuracyText">—</span></span>
+        </div>
+        <div class="meta-row">
+          <div class="confidence-list" id="confidenceList"></div>
         </div>
         <div class="meta-row" id="examples">
           <span class="status">Try:</span>
@@ -471,8 +588,13 @@ INDEX_HTML = r"""<!doctype html>
     const glossText = document.getElementById("glossText");
     const modeText = document.getElementById("modeText");
     const skippedText = document.getElementById("skippedText");
+    const accuracyText = document.getElementById("accuracyText");
+    const confidenceList = document.getElementById("confidenceList");
     const charCount = document.getElementById("charCount");
     const generateBtn = document.getElementById("generateBtn");
+    const voiceBtn = document.getElementById("voiceBtn");
+    const listenBtn = document.getElementById("listenBtn");
+    const voiceStatus = document.getElementById("voiceStatus");
     const clearBtn = document.getElementById("clearBtn");
     const autoToggle = document.getElementById("autoToggle");
 
@@ -481,6 +603,8 @@ INDEX_HTML = r"""<!doctype html>
     let isRendering = false;
     let queuedText = "";
     let lastSubmittedText = "";
+    let recognition = null;
+    let isListening = false;
 
     function setStatus(message, tone = "") {
       statusText.textContent = message;
@@ -495,11 +619,120 @@ INDEX_HTML = r"""<!doctype html>
       glossText.textContent = "—";
       modeText.textContent = "—";
       skippedText.textContent = "—";
+      accuracyText.textContent = "—";
+      confidenceList.innerHTML = "";
       setStatus(message);
+    }
+
+    function scoreTone(score) {
+      if (score >= 80) return "good";
+      if (score >= 55) return "warn";
+      return "bad";
+    }
+
+    function renderConfidence(items = []) {
+      confidenceList.innerHTML = "";
+      items.forEach((item) => {
+        const card = document.createElement("div");
+        card.className = "confidence-card";
+
+        const top = document.createElement("div");
+        top.className = "confidence-top";
+
+        const sign = document.createElement("span");
+        sign.className = "confidence-sign";
+        sign.textContent = item.sign || item.text || "SIGN";
+
+        const score = document.createElement("span");
+        score.className = `confidence-score ${scoreTone(Number(item.accuracy_percent || 0))}`;
+        score.textContent = `${item.accuracy_percent || 0}%`;
+
+        const detail = document.createElement("div");
+        detail.className = "confidence-detail";
+        detail.textContent = `${item.status || "estimated"} · ${item.source || "pipeline"}`;
+
+        top.append(sign, score);
+        card.append(top, detail);
+        confidenceList.appendChild(card);
+      });
     }
 
     function updateCount() {
       charCount.textContent = sourceText.value.length;
+    }
+
+    function setVoiceStatus(message, listening = false) {
+      voiceStatus.textContent = message;
+      voiceBtn.classList.toggle("listening", listening);
+      voiceBtn.textContent = listening ? "Stop" : "Mic";
+      listenBtn.textContent = listening ? "Stop voice" : "Speak";
+    }
+
+    function setupSpeechRecognition() {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (!SpeechRecognition) {
+        voiceBtn.classList.add("unsupported");
+        voiceBtn.disabled = true;
+        listenBtn.disabled = true;
+        voiceStatus.textContent = "Voice not supported";
+        return;
+      }
+
+      recognition = new SpeechRecognition();
+      recognition.lang = "en-US";
+      recognition.interimResults = true;
+      recognition.continuous = false;
+
+      recognition.onstart = () => {
+        isListening = true;
+        setVoiceStatus("Listening...", true);
+        setStatus("Listening to your voice...", "warn");
+      };
+
+      recognition.onresult = (event) => {
+        let transcript = "";
+        for (let index = event.resultIndex; index < event.results.length; index += 1) {
+          transcript += event.results[index][0].transcript;
+        }
+        sourceText.value = transcript.trim();
+        updateCount();
+        if (event.results[event.results.length - 1].isFinal) {
+          setVoiceStatus("Voice captured");
+          scheduleTranslate();
+        }
+      };
+
+      recognition.onerror = (event) => {
+        isListening = false;
+        const message = event.error === "not-allowed"
+          ? "Allow microphone access"
+          : "Voice input stopped";
+        setVoiceStatus(message);
+        setStatus(message, "bad");
+      };
+
+      recognition.onend = () => {
+        isListening = false;
+        if (sourceText.value.trim()) {
+          setVoiceStatus("Voice captured");
+          scheduleTranslate();
+        } else {
+          setVoiceStatus("Voice ready");
+        }
+      };
+    }
+
+    function toggleVoiceInput() {
+      if (!recognition) return;
+      if (isListening) {
+        recognition.stop();
+        return;
+      }
+      try {
+        recognition.start();
+      } catch {
+        setVoiceStatus("Voice restarting");
+      }
     }
 
     function scheduleTranslate() {
@@ -556,6 +789,8 @@ INDEX_HTML = r"""<!doctype html>
           glossText.textContent = data.gloss || "—";
           modeText.textContent = data.mode || "—";
           skippedText.textContent = (data.fallback_text_words || data.ignored_text_words || data.unsupported_glosses || []).join(", ") || "—";
+          accuracyText.textContent = data.accuracy_percent ? `${data.accuracy_percent}%` : "—";
+          renderConfidence(data.sign_confidences || []);
           setStatus(data.message || "Could not generate a trained sign.", "bad");
           return;
         }
@@ -563,6 +798,8 @@ INDEX_HTML = r"""<!doctype html>
         glossText.textContent = data.gloss || "—";
         modeText.textContent = data.mode || "—";
         skippedText.textContent = (data.fallback_text_words || data.ignored_text_words || []).join(", ") || "—";
+        accuracyText.textContent = data.accuracy_percent ? `${data.accuracy_percent}%` : "—";
+        renderConfidence(data.sign_confidences || []);
         resultVideo.src = data.video_url;
         resultVideo.hidden = false;
         emptyState.hidden = true;
@@ -601,10 +838,13 @@ INDEX_HTML = r"""<!doctype html>
     resultVideo.addEventListener("canplay", () => setStatus("Video ready.", "good"));
     resultVideo.addEventListener("error", () => setStatus("Video rendered, but the browser could not play it.", "bad"));
     generateBtn.addEventListener("click", translate);
+    voiceBtn.addEventListener("click", toggleVoiceInput);
+    listenBtn.addEventListener("click", toggleVoiceInput);
     clearBtn.addEventListener("click", () => {
       sourceText.value = "";
       updateCount();
       resetOutput();
+      setVoiceStatus("Voice ready");
       sourceText.focus();
     });
     document.querySelectorAll("[data-example]").forEach((button) => {
@@ -616,6 +856,7 @@ INDEX_HTML = r"""<!doctype html>
     });
 
     updateCount();
+    setupSpeechRecognition();
     loadStatus();
   </script>
 </body>
@@ -767,6 +1008,9 @@ class SignTranslatorApp:
                 "fallback_text_words": result.get("fallback_text_words", []),
                 "text_source": result.get("text_source", ""),
                 "remote_error": result.get("remote_error", ""),
+                "accuracy_percent": result.get("accuracy_percent", 0),
+                "pose_quality_percent": result.get("pose_quality_percent", 0),
+                "sign_confidences": result.get("sign_confidences", []),
             }
             self._cache[cache_key] = response
             return response

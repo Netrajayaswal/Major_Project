@@ -1,331 +1,1301 @@
 sentence,gloss_sequence
-I want to say alive,ALIVE
-The word is alive,ALIVE
-Sign alive for me,ALIVE
-How do you sign alive,ALIVE
 Show me alive,ALIVE
-Can you sign alive,ALIVE
-I want to say bad,BAD
+Please sign alive,ALIVE
+You are alive,ALIVE
+The word is alive,ALIVE
+How do you sign alive,ALIVE
+It is alive,ALIVE
+Sign alive for me,ALIVE
+I want to say alive,ALIVE
+He is alive,ALIVE
+She is alive,ALIVE
+You are animal,ANIMAL
+It is animal,ANIMAL
+Show me animal,ANIMAL
+I want to say animal,ANIMAL
+Please sign animal,ANIMAL
+Can you sign animal,ANIMAL
+She is animal,ANIMAL
+Sign animal for me,ANIMAL
+The word is animal,ANIMAL
+He is animal,ANIMAL
+Sign attack for me,ATTACK
+He is attack,ATTACK
+Can you sign attack,ATTACK
+I want to say attack,ATTACK
+Show me attack,ATTACK
+I am attack,ATTACK
+How do you sign attack,ATTACK
+It is attack,ATTACK
+Please sign attack,ATTACK
+You are attack,ATTACK
+You are bad,BAD
 How do you sign bad,BAD
-Show me bad,BAD
-bad,BAD
-The word is bad,BAD
 Sign bad for me,BAD
-I want to say beautiful,BEAUTIFUL
-Can you sign beautiful,BEAUTIFUL
-Show me beautiful,BEAUTIFUL
+Show me bad,BAD
+I want to say bad,BAD
+He is bad,BAD
+The word is bad,BAD
+bad,BAD
+She is bad,BAD
+Can you sign bad,BAD
+You are ball,BALL
+Sign ball for me,BALL
+Show me ball,BALL
+I am ball,BALL
+Please sign ball,BALL
+ball,BALL
+How do you sign ball,BALL
+He is ball,BALL
+It is ball,BALL
+The word is ball,BALL
+beautiful,BEAUTIFUL
+How do you sign beautiful,BEAUTIFUL
 The word is beautiful,BEAUTIFUL
-Please sign beautiful,BEAUTIFUL
+Can you sign beautiful,BEAUTIFUL
+I want to say beautiful,BEAUTIFUL
+You are beautiful,BEAUTIFUL
 Sign beautiful for me,BEAUTIFUL
-Show me big large,BIG LARGE
+It is beautiful,BEAUTIFUL
+Show me beautiful,BEAUTIFUL
+She is beautiful,BEAUTIFUL
 Please sign big large,BIG LARGE
 big large,BIG LARGE
-How do you sign big large,BIG LARGE
+She is big large,BIG LARGE
+I want to say big large,BIG LARGE
+It is big large,BIG LARGE
+Show me big large,BIG LARGE
 The word is big large,BIG LARGE
-Sign big large for me,BIG LARGE
-Can you sign blind,BLIND
-Show me blind,BLIND
-How do you sign blind,BLIND
+He is big large,BIG LARGE
+You are big large,BIG LARGE
+I am big large,BIG LARGE
+She is bill,BILL
+Please sign bill,BILL
+Show me bill,BILL
+I am bill,BILL
+I want to say bill,BILL
+You are bill,BILL
+The word is bill,BILL
+Sign bill for me,BILL
+How do you sign bill,BILL
+He is bill,BILL
+bird,BIRD
+She is bird,BIRD
+How do you sign bird,BIRD
+The word is bird,BIRD
+It is bird,BIRD
+I am bird,BIRD
+I want to say bird,BIRD
+You are bird,BIRD
+Sign bird for me,BIRD
+Please sign bird,BIRD
+How do you sign black,BLACK
+She is black,BLACK
+I want to say black,BLACK
+I am black,BLACK
+Can you sign black,BLACK
+Sign black for me,BLACK
+black,BLACK
+Show me black,BLACK
+You are black,BLACK
+He is black,BLACK
 I want to say blind,BLIND
-Please sign blind,BLIND
 blind,BLIND
+It is blind,BLIND
+You are blind,BLIND
+Show me blind,BLIND
+She is blind,BLIND
+He is blind,BLIND
+Sign blind for me,BLIND
+I am blind,BLIND
+The word is blind,BLIND
+Show me blue,BLUE
+Please sign blue,BLUE
+The word is blue,BLUE
+How do you sign blue,BLUE
+He is blue,BLUE
+You are blue,BLUE
+blue,BLUE
+It is blue,BLUE
+She is blue,BLUE
+I want to say blue,BLUE
+Can you sign brown,BROWN
+He is brown,BROWN
+brown,BROWN
+Show me brown,BROWN
+The word is brown,BROWN
+It is brown,BROWN
+Please sign brown,BROWN
+I am brown,BROWN
+You are brown,BROWN
+I want to say brown,BROWN
+Please sign camera,CAMERA
+She is camera,CAMERA
+I am camera,CAMERA
+Sign camera for me,CAMERA
+Show me camera,CAMERA
+The word is camera,CAMERA
+He is camera,CAMERA
+It is camera,CAMERA
+camera,CAMERA
+Can you sign camera,CAMERA
+You are cat,CAT
+Sign cat for me,CAT
+It is cat,CAT
+I want to say cat,CAT
+She is cat,CAT
+How do you sign cat,CAT
+Please sign cat,CAT
+Show me cat,CAT
+Can you sign cat,CAT
+I am cat,CAT
+cell phone,CELL PHONE
+Show me cell phone,CELL PHONE
+The word is cell phone,CELL PHONE
+Sign cell phone for me,CELL PHONE
+I am cell phone,CELL PHONE
+It is cell phone,CELL PHONE
+Can you sign cell phone,CELL PHONE
+He is cell phone,CELL PHONE
+Please sign cell phone,CELL PHONE
+How do you sign cell phone,CELL PHONE
 Can you sign cheap,CHEAP
-I want to say cheap,CHEAP
-Sign cheap for me,CHEAP
+She is cheap,CHEAP
+It is cheap,CHEAP
 The word is cheap,CHEAP
+Please sign cheap,CHEAP
+You are cheap,CHEAP
 cheap,CHEAP
-How do you sign cheap,CHEAP
+Sign cheap for me,CHEAP
+He is cheap,CHEAP
+I am cheap,CHEAP
+She is clean,CLEAN
+It is clean,CLEAN
 I want to say clean,CLEAN
-Please sign clean,CLEAN
-clean,CLEAN
-How do you sign clean,CLEAN
-The word is clean,CLEAN
 Show me clean,CLEAN
-Can you sign cool,COOL
-How do you sign cool,COOL
-Sign cool for me,COOL
-Show me cool,COOL
+Please sign clean,CLEAN
+You are clean,CLEAN
+The word is clean,CLEAN
+Sign clean for me,CLEAN
+He is clean,CLEAN
+How do you sign clean,CLEAN
+She is clock,CLOCK
+Can you sign clock,CLOCK
+clock,CLOCK
+I am clock,CLOCK
+It is clock,CLOCK
+Sign clock for me,CLOCK
+Please sign clock,CLOCK
+How do you sign clock,CLOCK
+Show me clock,CLOCK
+The word is clock,CLOCK
+You are colour,COLOUR
+I am colour,COLOUR
+He is colour,COLOUR
+She is colour,COLOUR
+colour,COLOUR
+How do you sign colour,COLOUR
+I want to say colour,COLOUR
+Show me colour,COLOUR
+The word is colour,COLOUR
+Sign colour for me,COLOUR
+You are computer,COMPUTER
+Please sign computer,COMPUTER
+computer,COMPUTER
+How do you sign computer,COMPUTER
+Can you sign computer,COMPUTER
+Show me computer,COMPUTER
+She is computer,COMPUTER
+I want to say computer,COMPUTER
+The word is computer,COMPUTER
+He is computer,COMPUTER
 The word is cool,COOL
+You are cool,COOL
+Sign cool for me,COOL
+Please sign cool,COOL
+She is cool,COOL
+It is cool,COOL
 cool,COOL
-Show me curved,CURVED
-The word is curved,CURVED
-How do you sign curved,CURVED
-Please sign curved,CURVED
-Sign curved for me,CURVED
+Can you sign cool,COOL
+I want to say cool,COOL
+How do you sign cool,COOL
+She is cow,COW
+How do you sign cow,COW
+It is cow,COW
+The word is cow,COW
+I want to say cow,COW
+I am cow,COW
+cow,COW
+Sign cow for me,COW
+He is cow,COW
+Can you sign cow,COW
+He is curved,CURVED
+Can you sign curved,CURVED
 curved,CURVED
-Can you sign dead,DEAD
-The word is dead,DEAD
-Please sign dead,DEAD
-Show me dead,DEAD
+It is curved,CURVED
+You are curved,CURVED
+The word is curved,CURVED
+I am curved,CURVED
+Sign curved for me,CURVED
+I want to say curved,CURVED
+Please sign curved,CURVED
+He is dead,DEAD
+I want to say dead,DEAD
 How do you sign dead,DEAD
-dead,DEAD
+I am dead,DEAD
+Please sign dead,DEAD
+She is dead,DEAD
+The word is dead,DEAD
+You are dead,DEAD
+Show me dead,DEAD
+Can you sign dead,DEAD
+How do you sign deaf,DEAF
+It is deaf,DEAF
 The word is deaf,DEAF
-deaf,DEAF
+You are deaf,DEAF
 I want to say deaf,DEAF
-Can you sign deaf,DEAF
-Please sign deaf,DEAF
+Show me deaf,DEAF
+She is deaf,DEAF
+deaf,DEAF
 Sign deaf for me,DEAF
-deep,DEEP
+I am deaf,DEAF
+I want to say death,DEATH
+death,DEATH
+Show me death,DEATH
+The word is death,DEATH
+You are death,DEATH
+How do you sign death,DEATH
+I am death,DEATH
+Please sign death,DEATH
+She is death,DEATH
+He is death,DEATH
+He is deep,DEEP
+It is deep,DEEP
 How do you sign deep,DEEP
-I want to say deep,DEEP
-Sign deep for me,DEEP
+You are deep,DEEP
 Please sign deep,DEEP
+Sign deep for me,DEEP
+She is deep,DEEP
+I want to say deep,DEEP
+I am deep,DEEP
 Can you sign deep,DEEP
+Sign dirty for me,DIRTY
+How do you sign dirty,DIRTY
+Can you sign dirty,DIRTY
 dirty,DIRTY
 I want to say dirty,DIRTY
-Show me dirty,DIRTY
+The word is dirty,DIRTY
 Please sign dirty,DIRTY
-How do you sign dirty,DIRTY
-Sign dirty for me,DIRTY
+Show me dirty,DIRTY
+You are dirty,DIRTY
+She is dirty,DIRTY
+He is dog,DOG
+dog,DOG
+Please sign dog,DOG
+How do you sign dog,DOG
+Show me dog,DOG
+The word is dog,DOG
+It is dog,DOG
+I want to say dog,DOG
+Sign dog for me,DOG
+She is dog,DOG
+Please sign dream,DREAM
 The word is dream,DREAM
+I am dream,DREAM
 Can you sign dream,DREAM
-Sign dream for me,DREAM
-I want to say dream,DREAM
-Show me dream,DREAM
 How do you sign dream,DREAM
-dry,DRY
-How do you sign dry,DRY
-Sign dry for me,DRY
+dream,DREAM
+You are dream,DREAM
+Show me dream,DREAM
+I want to say dream,DREAM
+She is dream,DREAM
+I am dress,DRESS
+I want to say dress,DRESS
+Please sign dress,DRESS
+How do you sign dress,DRESS
+He is dress,DRESS
+Sign dress for me,DRESS
+The word is dress,DRESS
+Show me dress,DRESS
+Can you sign dress,DRESS
+She is dress,DRESS
 Please sign dry,DRY
-Show me dry,DRY
+She is dry,DRY
 Can you sign dry,DRY
-The word is expensive,EXPENSIVE
-How do you sign expensive,EXPENSIVE
-expensive,EXPENSIVE
+Show me dry,DRY
+The word is dry,DRY
+I am dry,DRY
+He is dry,DRY
+How do you sign dry,DRY
+It is dry,DRY
+dry,DRY
+Show me election,ELECTION
+You are election,ELECTION
+election,ELECTION
+I want to say election,ELECTION
+The word is election,ELECTION
+She is election,ELECTION
+Please sign election,ELECTION
+How do you sign election,ELECTION
+I am election,ELECTION
+Sign election for me,ELECTION
+She is energy,ENERGY
+Show me energy,ENERGY
+The word is energy,ENERGY
+I want to say energy,ENERGY
+I am energy,ENERGY
+He is energy,ENERGY
+Can you sign energy,ENERGY
+It is energy,ENERGY
+Sign energy for me,ENERGY
+energy,ENERGY
+I want to say ex monsoon,EX MONSOON
+It is ex monsoon,EX MONSOON
+Sign ex monsoon for me,EX MONSOON
+She is ex monsoon,EX MONSOON
+I am ex monsoon,EX MONSOON
+How do you sign ex monsoon,EX MONSOON
+You are ex monsoon,EX MONSOON
+Can you sign ex monsoon,EX MONSOON
+The word is ex monsoon,EX MONSOON
+He is ex monsoon,EX MONSOON
+The word is exercise,EXERCISE
+How do you sign exercise,EXERCISE
+exercise,EXERCISE
+You are exercise,EXERCISE
+He is exercise,EXERCISE
+I want to say exercise,EXERCISE
+Show me exercise,EXERCISE
+Sign exercise for me,EXERCISE
+Can you sign exercise,EXERCISE
+I am exercise,EXERCISE
+It is expensive,EXPENSIVE
+I want to say expensive,EXPENSIVE
 Show me expensive,EXPENSIVE
 Please sign expensive,EXPENSIVE
-I want to say expensive,EXPENSIVE
-Show me famous,FAMOUS
+Sign expensive for me,EXPENSIVE
+He is expensive,EXPENSIVE
+Can you sign expensive,EXPENSIVE
+I am expensive,EXPENSIVE
+expensive,EXPENSIVE
+How do you sign expensive,EXPENSIVE
+Show me fall,FALL
+You are fall,FALL
+Can you sign fall,FALL
+I am fall,FALL
+It is fall,FALL
+Sign fall for me,FALL
+I want to say fall,FALL
+How do you sign fall,FALL
+fall,FALL
+She is fall,FALL
 famous,FAMOUS
+Show me famous,FAMOUS
+He is famous,FAMOUS
 Please sign famous,FAMOUS
-Sign famous for me,FAMOUS
+She is famous,FAMOUS
+You are famous,FAMOUS
 I want to say famous,FAMOUS
 How do you sign famous,FAMOUS
-Please sign female,FEMALE
-How do you sign female,FEMALE
+Sign famous for me,FAMOUS
+The word is famous,FAMOUS
+fan,FAN
+Can you sign fan,FAN
+The word is fan,FAN
+I am fan,FAN
+Sign fan for me,FAN
+How do you sign fan,FAN
+Show me fan,FAN
+He is fan,FAN
+You are fan,FAN
+I want to say fan,FAN
 Can you sign female,FEMALE
+How do you sign female,FEMALE
+I am female,FEMALE
+You are female,FEMALE
+It is female,FEMALE
 Sign female for me,FEMALE
-female,FEMALE
-I want to say female,FEMALE
-The word is flat,FLAT
-How do you sign flat,FLAT
-Please sign flat,FLAT
-flat,FLAT
+Show me female,FEMALE
+He is female,FEMALE
+The word is female,FEMALE
+She is female,FEMALE
+I am fish,FISH
+Sign fish for me,FISH
+Please sign fish,FISH
+She is fish,FISH
+The word is fish,FISH
+fish,FISH
+It is fish,FISH
+You are fish,FISH
+How do you sign fish,FISH
+I want to say fish,FISH
+Sign flat for me,FLAT
 I want to say flat,FLAT
-Can you sign flat,FLAT
-Please sign good,GOOD
-I want to say good,GOOD
+It is flat,FLAT
+Please sign flat,FLAT
+The word is flat,FLAT
+I am flat,FLAT
+Show me flat,FLAT
+flat,FLAT
+You are flat,FLAT
+How do you sign flat,FLAT
+You are god,GOD
+How do you sign god,GOD
+It is god,GOD
+She is god,GOD
+god,GOD
+I want to say god,GOD
+I am god,GOD
+Sign god for me,GOD
+Show me god,GOD
+Please sign god,GOD
+It is good,GOOD
+How do you sign good,GOOD
+She is good,GOOD
+I am good,GOOD
+The word is good,GOOD
 Can you sign good,GOOD
+Please sign good,GOOD
+He is good,GOOD
 good,GOOD
-Sign good for me,GOOD
 Show me good,GOOD
-I want to say happy,HAPPY
+You are good evening,GOOD EVENING
+good evening,GOOD EVENING
+Can you sign good evening,GOOD EVENING
+She is good evening,GOOD EVENING
+He is good evening,GOOD EVENING
+It is good evening,GOOD EVENING
+I am good evening,GOOD EVENING
+Sign good evening for me,GOOD EVENING
+Please sign good evening,GOOD EVENING
+I want to say good evening,GOOD EVENING
+It is good night,GOOD NIGHT
+The word is good night,GOOD NIGHT
+Please sign good night,GOOD NIGHT
+I am good night,GOOD NIGHT
+You are good night,GOOD NIGHT
+good night,GOOD NIGHT
+How do you sign good night,GOOD NIGHT
+Sign good night for me,GOOD NIGHT
+He is good night,GOOD NIGHT
+Show me good night,GOOD NIGHT
+Sign green for me,GREEN
+Please sign green,GREEN
+green,GREEN
+She is green,GREEN
+Can you sign green,GREEN
+How do you sign green,GREEN
+Show me green,GREEN
+He is green,GREEN
+The word is green,GREEN
+You are green,GREEN
+She is grey,GREY
+Can you sign grey,GREY
+You are grey,GREY
+The word is grey,GREY
+Sign grey for me,GREY
+He is grey,GREY
+I am grey,GREY
+grey,GREY
+How do you sign grey,GREY
+Show me grey,GREY
+You are gun,GUN
+Sign gun for me,GUN
+He is gun,GUN
+I am gun,GUN
+How do you sign gun,GUN
+Can you sign gun,GUN
+The word is gun,GUN
+I want to say gun,GUN
+Please sign gun,GUN
+She is gun,GUN
+You are happy,HAPPY
+The word is happy,HAPPY
 How do you sign happy,HAPPY
-Please sign happy,HAPPY
-happy,HAPPY
-Show me happy,HAPPY
+I am happy,HAPPY
+He is happy,HAPPY
+I want to say happy,HAPPY
 Can you sign happy,HAPPY
+It is happy,HAPPY
+Sign happy for me,HAPPY
+happy,HAPPY
+She is hard,HARD
+You are hard,HARD
 Sign hard for me,HARD
-Can you sign hard,HARD
-The word is hard,HARD
-Please sign hard,HARD
 How do you sign hard,HARD
-hard,HARD
-Show me healthy,HEALTHY
-I want to say healthy,HEALTHY
-healthy,HEALTHY
+Show me hard,HARD
+He is hard,HARD
+It is hard,HARD
+I am hard,HARD
+Can you sign hard,HARD
+Please sign hard,HARD
+How do you sign hat,HAT
+hat,HAT
+I am hat,HAT
+I want to say hat,HAT
+Sign hat for me,HAT
+The word is hat,HAT
+You are hat,HAT
+Can you sign hat,HAT
+Show me hat,HAT
+He is hat,HAT
+I am he,HE
+You are he,HE
+How do you sign he,HE
+She is he,HE
+Please sign he,HE
+The word is he,HE
+Can you sign he,HE
+He is he,HE
+It is he,HE
+Sign he for me,HE
 Please sign healthy,HEALTHY
+I want to say healthy,HEALTHY
+Sign healthy for me,HEALTHY
+I am healthy,HEALTHY
+She is healthy,HEALTHY
 How do you sign healthy,HEALTHY
+It is healthy,HEALTHY
+Show me healthy,HEALTHY
 Can you sign healthy,HEALTHY
-I want to say heavy,HEAVY
-Can you sign heavy,HEAVY
+He is healthy,HEALTHY
+He is heavy,HEAVY
 Please sign heavy,HEAVY
-How do you sign heavy,HEAVY
-heavy,HEAVY
+I want to say heavy,HEAVY
 Sign heavy for me,HEAVY
+She is heavy,HEAVY
+heavy,HEAVY
+Show me heavy,HEAVY
+Can you sign heavy,HEAVY
+I am heavy,HEAVY
+The word is heavy,HEAVY
+Show me high,HIGH
+I want to say high,HIGH
+How do you sign high,HIGH
+high,HIGH
+She is high,HIGH
+You are high,HIGH
+It is high,HIGH
 The word is high,HIGH
 Can you sign high,HIGH
-I want to say high,HIGH
-high,HIGH
-How do you sign high,HIGH
-Sign high for me,HIGH
-Show me hot,HOT
-Sign hot for me,HOT
-The word is hot,HOT
-How do you sign hot,HOT
+I am high,HIGH
+She is horse,HORSE
+You are horse,HORSE
+Sign horse for me,HORSE
+Can you sign horse,HORSE
+Show me horse,HORSE
+He is horse,HORSE
+horse,HORSE
+The word is horse,HORSE
+I am horse,HORSE
+How do you sign horse,HORSE
 hot,HOT
 I want to say hot,HOT
-Please sign light,LIGHT
-Sign light for me,LIGHT
+I am hot,HOT
+It is hot,HOT
+He is hot,HOT
+The word is hot,HOT
+Sign hot for me,HOT
+She is hot,HOT
+How do you sign hot,HOT
+Please sign hot,HOT
+You are i,I
+i,I
+Can you sign i,I
+How do you sign i,I
+The word is i,I
+I want to say i,I
+Please sign i,I
+Sign i for me,I
+Show me i,I
+She is i,I
+it,IT
+I am it,IT
+I want to say it,IT
+She is it,IT
+The word is it,IT
+Can you sign it,IT
+Please sign it,IT
+Sign it for me,IT
+He is it,IT
+How do you sign it,IT
+Sign lamp for me,LAMP
+She is lamp,LAMP
+You are lamp,LAMP
+Can you sign lamp,LAMP
+Please sign lamp,LAMP
+Show me lamp,LAMP
+It is lamp,LAMP
+The word is lamp,LAMP
+I am lamp,LAMP
+He is lamp,LAMP
+I want to say laptop,LAPTOP
+Please sign laptop,LAPTOP
+She is laptop,LAPTOP
+It is laptop,LAPTOP
+He is laptop,LAPTOP
+The word is laptop,LAPTOP
+You are laptop,LAPTOP
+I am laptop,LAPTOP
+laptop,LAPTOP
+How do you sign laptop,LAPTOP
 light,LIGHT
-I want to say light,LIGHT
+She is light,LIGHT
+I am light,LIGHT
 Can you sign light,LIGHT
+He is light,LIGHT
+How do you sign light,LIGHT
+You are light,LIGHT
 The word is light,LIGHT
+Please sign light,LIGHT
+It is light,LIGHT
 long,LONG
-Please sign long,LONG
-How do you sign long,LONG
-Sign long for me,LONG
+The word is long,LONG
+She is long,LONG
 Show me long,LONG
 Can you sign long,LONG
-Can you sign loose,LOOSE
+Please sign long,LONG
+I want to say long,LONG
+You are long,LONG
+Sign long for me,LONG
+It is long,LONG
+Please sign loose,LOOSE
 I want to say loose,LOOSE
 The word is loose,LOOSE
-Show me loose,LOOSE
+How do you sign loose,LOOSE
+Can you sign loose,LOOSE
 loose,LOOSE
+Show me loose,LOOSE
+You are loose,LOOSE
+It is loose,LOOSE
 Sign loose for me,LOOSE
-How do you sign loud,LOUD
-Show me loud,LOUD
-The word is loud,LOUD
-Please sign loud,LOUD
-Can you sign loud,LOUD
+It is loud,LOUD
+He is loud,LOUD
 Sign loud for me,LOUD
+The word is loud,LOUD
+Can you sign loud,LOUD
+How do you sign loud,LOUD
+Please sign loud,LOUD
+I am loud,LOUD
+Show me loud,LOUD
+You are loud,LOUD
+I am low,LOW
+Can you sign low,LOW
 Sign low for me,LOW
-How do you sign low,LOW
 I want to say low,LOW
-Show me low,LOW
+He is low,LOW
 Please sign low,LOW
 The word is low,LOW
+How do you sign low,LOW
+She is low,LOW
+low,LOW
+Please sign male,MALE
+It is male,MALE
+Sign male for me,MALE
+I want to say male,MALE
 Show me male,MALE
 Can you sign male,MALE
 male,MALE
-How do you sign male,MALE
-Sign male for me,MALE
-Please sign male,MALE
-The word is mean,MEAN
-Show me mean,MEAN
-How do you sign mean,MEAN
+He is male,MALE
+I am male,MALE
+She is male,MALE
+I am marriage,MARRIAGE
+You are marriage,MARRIAGE
+He is marriage,MARRIAGE
+It is marriage,MARRIAGE
+marriage,MARRIAGE
+I want to say marriage,MARRIAGE
+Sign marriage for me,MARRIAGE
+Can you sign marriage,MARRIAGE
+Please sign marriage,MARRIAGE
+The word is marriage,MARRIAGE
 I want to say mean,MEAN
-Can you sign mean,MEAN
+Show me mean,MEAN
+Please sign mean,MEAN
+It is mean,MEAN
+Sign mean for me,MEAN
 mean,MEAN
-Show me new,NEW
-Please sign new,NEW
+How do you sign mean,MEAN
+The word is mean,MEAN
+He is mean,MEAN
+You are mean,MEAN
+I am medicine,MEDICINE
+How do you sign medicine,MEDICINE
+I want to say medicine,MEDICINE
+Can you sign medicine,MEDICINE
+Please sign medicine,MEDICINE
+It is medicine,MEDICINE
+You are medicine,MEDICINE
+He is medicine,MEDICINE
+medicine,MEDICINE
+She is medicine,MEDICINE
+I want to say money,MONEY
+Sign money for me,MONEY
+money,MONEY
+You are money,MONEY
+It is money,MONEY
+Show me money,MONEY
+How do you sign money,MONEY
+I am money,MONEY
+Please sign money,MONEY
+He is money,MONEY
+Please sign mouse,MOUSE
+I want to say mouse,MOUSE
+I am mouse,MOUSE
+It is mouse,MOUSE
+Sign mouse for me,MOUSE
+He is mouse,MOUSE
+How do you sign mouse,MOUSE
+Show me mouse,MOUSE
+Can you sign mouse,MOUSE
+The word is mouse,MOUSE
+Sign new for me,NEW
 How do you sign new,NEW
-The word is new,NEW
-new,NEW
+He is new,NEW
+I want to say new,NEW
 Can you sign new,NEW
-Show me nice,NICE
+You are new,NEW
+She is new,NEW
+It is new,NEW
+Please sign new,NEW
+new,NEW
+It is newspaper,NEWSPAPER
+I am newspaper,NEWSPAPER
+I want to say newspaper,NEWSPAPER
+Show me newspaper,NEWSPAPER
+Please sign newspaper,NEWSPAPER
+Sign newspaper for me,NEWSPAPER
+He is newspaper,NEWSPAPER
+You are newspaper,NEWSPAPER
+newspaper,NEWSPAPER
+The word is newspaper,NEWSPAPER
+She is nice,NICE
 I want to say nice,NICE
+He is nice,NICE
 How do you sign nice,NICE
-The word is nice,NICE
-Please sign nice,NICE
 nice,NICE
-Can you sign old,OLD
+The word is nice,NICE
+You are nice,NICE
+Please sign nice,NICE
+It is nice,NICE
+Sign nice for me,NICE
 The word is old,OLD
-old,OLD
-Sign old for me,OLD
+It is old,OLD
+I am old,OLD
+Can you sign old,OLD
+You are old,OLD
 How do you sign old,OLD
+He is old,OLD
+old,OLD
+I want to say old,OLD
 Please sign old,OLD
-Please sign poor,POOR
-I want to say poor,POOR
+It is orange,ORANGE
+She is orange,ORANGE
+Sign orange for me,ORANGE
+You are orange,ORANGE
+I am orange,ORANGE
+The word is orange,ORANGE
+He is orange,ORANGE
+Show me orange,ORANGE
+Can you sign orange,ORANGE
+orange,ORANGE
+I am peace,PEACE
+Please sign peace,PEACE
+I want to say peace,PEACE
+How do you sign peace,PEACE
+It is peace,PEACE
+The word is peace,PEACE
+Sign peace for me,PEACE
+You are peace,PEACE
+She is peace,PEACE
+He is peace,PEACE
+It is pink,PINK
+How do you sign pink,PINK
+Can you sign pink,PINK
+He is pink,PINK
+Show me pink,PINK
+I am pink,PINK
+The word is pink,PINK
+Please sign pink,PINK
+pink,PINK
+I want to say pink,PINK
+You are pleased,PLEASED
+pleased,PLEASED
+The word is pleased,PLEASED
+I am pleased,PLEASED
+It is pleased,PLEASED
+He is pleased,PLEASED
+How do you sign pleased,PLEASED
+Please sign pleased,PLEASED
+Can you sign pleased,PLEASED
+I want to say pleased,PLEASED
+It is poor,POOR
 Show me poor,POOR
-Can you sign poor,POOR
 poor,POOR
-The word is poor,POOR
+She is poor,POOR
+How do you sign poor,POOR
+Sign poor for me,POOR
+Can you sign poor,POOR
+I am poor,POOR
+You are poor,POOR
+I want to say poor,POOR
+price,PRICE
+It is price,PRICE
+I am price,PRICE
+I want to say price,PRICE
+Please sign price,PRICE
+How do you sign price,PRICE
+He is price,PRICE
+You are price,PRICE
+Show me price,PRICE
+Can you sign price,PRICE
+She is quiet,QUIET
+I am quiet,QUIET
+Sign quiet for me,QUIET
+You are quiet,QUIET
 quiet,QUIET
-Show me quiet,QUIET
-The word is quiet,QUIET
-I want to say quiet,QUIET
-Can you sign quiet,QUIET
 How do you sign quiet,QUIET
-Show me rich,RICH
+I want to say quiet,QUIET
+The word is quiet,QUIET
+Please sign quiet,QUIET
+Can you sign quiet,QUIET
+He is race ethnicity,RACE ETHNICITY
+Can you sign race ethnicity,RACE ETHNICITY
+I want to say race ethnicity,RACE ETHNICITY
+The word is race ethnicity,RACE ETHNICITY
+It is race ethnicity,RACE ETHNICITY
+She is race ethnicity,RACE ETHNICITY
+I am race ethnicity,RACE ETHNICITY
+race ethnicity,RACE ETHNICITY
+Show me race ethnicity,RACE ETHNICITY
+You are race ethnicity,RACE ETHNICITY
+He is radio,RADIO
+Sign radio for me,RADIO
+She is radio,RADIO
+The word is radio,RADIO
+How do you sign radio,RADIO
+It is radio,RADIO
+Can you sign radio,RADIO
+Please sign radio,RADIO
+You are radio,RADIO
+radio,RADIO
+Sign red for me,RED
+She is red,RED
+Show me red,RED
+red,RED
+He is red,RED
+I want to say red,RED
+You are red,RED
+Can you sign red,RED
+How do you sign red,RED
+I am red,RED
+You are religion,RELIGION
+Show me religion,RELIGION
+The word is religion,RELIGION
+Please sign religion,RELIGION
+It is religion,RELIGION
+religion,RELIGION
+I want to say religion,RELIGION
+I am religion,RELIGION
+How do you sign religion,RELIGION
+She is religion,RELIGION
 The word is rich,RICH
-Can you sign rich,RICH
+Show me rich,RICH
 Please sign rich,RICH
-rich,RICH
-How do you sign rich,RICH
-sad,SAD
-Please sign sad,SAD
-The word is sad,SAD
-Can you sign sad,SAD
-How do you sign sad,SAD
+I want to say rich,RICH
+I am rich,RICH
+He is rich,RICH
+You are rich,RICH
+Can you sign rich,RICH
+She is rich,RICH
+Sign rich for me,RICH
 I want to say sad,SAD
-The word is shallow,SHALLOW
-I want to say shallow,SHALLOW
-Can you sign shallow,SHALLOW
-shallow,SHALLOW
+sad,SAD
+It is sad,SAD
+Show me sad,SAD
+Please sign sad,SAD
+He is sad,SAD
+She is sad,SAD
+I am sad,SAD
+How do you sign sad,SAD
+Sign sad for me,SAD
+I am science,SCIENCE
+Please sign science,SCIENCE
+I want to say science,SCIENCE
+You are science,SCIENCE
+How do you sign science,SCIENCE
+science,SCIENCE
+It is science,SCIENCE
+The word is science,SCIENCE
+Sign science for me,SCIENCE
+She is science,SCIENCE
+I want to say screen,SCREEN
+How do you sign screen,SCREEN
+screen,SCREEN
+Sign screen for me,SCREEN
+He is screen,SCREEN
+You are screen,SCREEN
+Can you sign screen,SCREEN
+Please sign screen,SCREEN
+She is screen,SCREEN
+The word is screen,SCREEN
+The word is season,SEASON
+How do you sign season,SEASON
+Sign season for me,SEASON
+Can you sign season,SEASON
+season,SEASON
+You are season,SEASON
+I want to say season,SEASON
+She is season,SEASON
+It is season,SEASON
+Please sign season,SEASON
+It is shallow,SHALLOW
+He is shallow,SHALLOW
 Sign shallow for me,SHALLOW
+You are shallow,SHALLOW
+I want to say shallow,SHALLOW
+I am shallow,SHALLOW
+Please sign shallow,SHALLOW
+She is shallow,SHALLOW
+Show me shallow,SHALLOW
 How do you sign shallow,SHALLOW
+I want to say she,SHE
+Sign she for me,SHE
+It is she,SHE
+Please sign she,SHE
+Show me she,SHE
+He is she,SHE
+How do you sign she,SHE
+she,SHE
+I am she,SHE
+You are she,SHE
+Show me shirt,SHIRT
+The word is shirt,SHIRT
+shirt,SHIRT
+Can you sign shirt,SHIRT
+I want to say shirt,SHIRT
+Sign shirt for me,SHIRT
+How do you sign shirt,SHIRT
+He is shirt,SHIRT
+You are shirt,SHIRT
+Please sign shirt,SHIRT
+Sign short for me,SHORT
+Can you sign short,SHORT
+short,SHORT
+You are short,SHORT
+He is short,SHORT
 Please sign short,SHORT
-How do you sign short,SHORT
-Show me short,SHORT
 I want to say short,SHORT
 The word is short,SHORT
-Sign short for me,SHORT
-Sign sick for me,SICK
-I want to say sick,SICK
-Show me sick,SICK
-Can you sign sick,SICK
-Please sign sick,SICK
+How do you sign short,SHORT
+I am short,SHORT
 How do you sign sick,SICK
+The word is sick,SICK
+Sign sick for me,SICK
+He is sick,SICK
+You are sick,SICK
+Please sign sick,SICK
+Can you sign sick,SICK
+It is sick,SICK
+Show me sick,SICK
+I am sick,SICK
+Please sign sign,SIGN
+The word is sign,SIGN
+You are sign,SIGN
+Sign sign for me,SIGN
+I want to say sign,SIGN
+How do you sign sign,SIGN
+She is sign,SIGN
+It is sign,SIGN
+sign,SIGN
+Show me sign,SIGN
+How do you sign skirt,SKIRT
+Sign skirt for me,SKIRT
+It is skirt,SKIRT
+She is skirt,SKIRT
+Show me skirt,SKIRT
+He is skirt,SKIRT
+The word is skirt,SKIRT
+I want to say skirt,SKIRT
+skirt,SKIRT
+You are skirt,SKIRT
+She is soft,SOFT
+I am soft,SOFT
 Sign soft for me,SOFT
-Can you sign soft,SOFT
-Show me soft,SOFT
-Please sign soft,SOFT
 The word is soft,SOFT
 soft,SOFT
-Sign strong for me,STRONG
-strong,STRONG
-How do you sign strong,STRONG
+Can you sign soft,SOFT
+He is soft,SOFT
+You are soft,SOFT
+How do you sign soft,SOFT
+I want to say soft,SOFT
+How do you sign sport,SPORT
+Please sign sport,SPORT
+The word is sport,SPORT
+Can you sign sport,SPORT
+Sign sport for me,SPORT
+You are sport,SPORT
+I am sport,SPORT
+I want to say sport,SPORT
+Show me sport,SPORT
+He is sport,SPORT
+You are spring,SPRING
+Can you sign spring,SPRING
+The word is spring,SPRING
+Sign spring for me,SPRING
+I want to say spring,SPRING
+It is spring,SPRING
+How do you sign spring,SPRING
+Show me spring,SPRING
+I am spring,SPRING
+He is spring,SPRING
+Please sign strong,STRONG
 Show me strong,STRONG
-The word is strong,STRONG
+strong,STRONG
+Sign strong for me,STRONG
+It is strong,STRONG
+I want to say strong,STRONG
+She is strong,STRONG
 Can you sign strong,STRONG
+I am strong,STRONG
+How do you sign strong,STRONG
+Show me suit,SUIT
+He is suit,SUIT
+The word is suit,SUIT
+I am suit,SUIT
+Please sign suit,SUIT
+It is suit,SUIT
+suit,SUIT
+Can you sign suit,SUIT
+How do you sign suit,SUIT
+I want to say suit,SUIT
+She is summer,SUMMER
+Can you sign summer,SUMMER
+Please sign summer,SUMMER
+Sign summer for me,SUMMER
+I am summer,SUMMER
+I want to say summer,SUMMER
+Show me summer,SUMMER
+You are summer,SUMMER
+summer,SUMMER
+It is summer,SUMMER
+Please sign tall,TALL
+I want to say tall,TALL
+You are tall,TALL
 tall,TALL
 The word is tall,TALL
+She is tall,TALL
+He is tall,TALL
 How do you sign tall,TALL
-Sign tall for me,TALL
-I want to say tall,TALL
-Show me tall,TALL
+It is tall,TALL
+Can you sign tall,TALL
+She is team,TEAM
+I am team,TEAM
+You are team,TEAM
+I want to say team,TEAM
+The word is team,TEAM
+It is team,TEAM
+He is team,TEAM
+Please sign team,TEAM
+How do you sign team,TEAM
+Sign team for me,TEAM
+technology,TECHNOLOGY
+He is technology,TECHNOLOGY
+Please sign technology,TECHNOLOGY
+Can you sign technology,TECHNOLOGY
+She is technology,TECHNOLOGY
+I want to say technology,TECHNOLOGY
+Show me technology,TECHNOLOGY
+Sign technology for me,TECHNOLOGY
+You are technology,TECHNOLOGY
+The word is technology,TECHNOLOGY
+television,TELEVISION
+You are television,TELEVISION
+He is television,TELEVISION
+How do you sign television,TELEVISION
+She is television,TELEVISION
+It is television,TELEVISION
+Can you sign television,TELEVISION
+Sign television for me,TELEVISION
+I am television,TELEVISION
+Please sign television,TELEVISION
+The word is thank you,THANK YOU
+She is thank you,THANK YOU
+I am thank you,THANK YOU
+How do you sign thank you,THANK YOU
+You are thank you,THANK YOU
+thank you,THANK YOU
+Can you sign thank you,THANK YOU
+I want to say thank you,THANK YOU
+Sign thank you for me,THANK YOU
+Show me thank you,THANK YOU
+Sign they for me,THEY
+The word is they,THEY
+She is they,THEY
+He is they,THEY
+How do you sign they,THEY
+they,THEY
+Please sign they,THEY
+I want to say they,THEY
+I am they,THEY
+Show me they,THEY
 Please sign thick,THICK
-The word is thick,THICK
+I am thick,THICK
+She is thick,THICK
 Sign thick for me,THICK
-I want to say thick,THICK
+He is thick,THICK
+The word is thick,THICK
+Show me thick,THICK
+It is thick,THICK
 Can you sign thick,THICK
 thick,THICK
-I want to say thin,THIN
-Can you sign thin,THIN
-thin,THIN
+You are thin,THIN
+He is thin,THIN
+Please sign thin,THIN
+I am thin,THIN
 Show me thin,THIN
-Sign thin for me,THIN
+I want to say thin,THIN
 How do you sign thin,THIN
-tight,TIGHT
+It is thin,THIN
+Can you sign thin,THIN
+The word is thin,THIN
 The word is tight,TIGHT
-I want to say tight,TIGHT
+tight,TIGHT
+How do you sign tight,TIGHT
+Show me tight,TIGHT
+She is tight,TIGHT
+You are tight,TIGHT
+Please sign tight,TIGHT
 Sign tight for me,TIGHT
 Can you sign tight,TIGHT
-Show me tight,TIGHT
-Sign ugly for me,UGLY
-Please sign ugly,UGLY
-I want to say ugly,UGLY
+I want to say tight,TIGHT
+I am ugly,UGLY
+He is ugly,UGLY
 How do you sign ugly,UGLY
 Show me ugly,UGLY
-The word is ugly,UGLY
+Please sign ugly,UGLY
+I want to say ugly,UGLY
+It is ugly,UGLY
+Sign ugly for me,UGLY
+You are ugly,UGLY
+ugly,UGLY
+I want to say war,WAR
+He is war,WAR
+Show me war,WAR
+She is war,WAR
+war,WAR
+Sign war for me,WAR
+It is war,WAR
+How do you sign war,WAR
+I am war,WAR
+Please sign war,WAR
+I am warm,WARM
+She is warm,WARM
+He is warm,WARM
+warm,WARM
 Sign warm for me,WARM
-Show me warm,WARM
-I want to say warm,WARM
-How do you sign warm,WARM
-The word is warm,WARM
 Can you sign warm,WARM
+I want to say warm,WARM
+The word is warm,WARM
+You are warm,WARM
+It is warm,WARM
+Can you sign we,WE
+How do you sign we,WE
+Sign we for me,WE
+I want to say we,WE
+Please sign we,WE
+He is we,WE
+It is we,WE
+Show me we,WE
+She is we,WE
+I am we,WE
 weak,WEAK
-The word is weak,WEAK
-How do you sign weak,WEAK
-Sign weak for me,WEAK
-Please sign weak,WEAK
 Show me weak,WEAK
+Sign weak for me,WEAK
+How do you sign weak,WEAK
+She is weak,WEAK
+The word is weak,WEAK
+You are weak,WEAK
+Can you sign weak,WEAK
+Please sign weak,WEAK
+It is weak,WEAK
 Show me wet,WET
-How do you sign wet,WET
-Please sign wet,WET
-I want to say wet,WET
+It is wet,WET
+Sign wet for me,WET
+She is wet,WET
 Can you sign wet,WET
-wet,WET
-How do you sign wide,WIDE
-I want to say wide,WIDE
+You are wet,WET
+I am wet,WET
+I want to say wet,WET
+How do you sign wet,WET
+The word is wet,WET
+Can you sign white,WHITE
+How do you sign white,WHITE
+The word is white,WHITE
+I want to say white,WHITE
+She is white,WHITE
+He is white,WHITE
+Sign white for me,WHITE
+You are white,WHITE
+Please sign white,WHITE
+Show me white,WHITE
 The word is wide,WIDE
+How do you sign wide,WIDE
+It is wide,WIDE
+He is wide,WIDE
+She is wide,WIDE
+You are wide,WIDE
+I want to say wide,WIDE
+Show me wide,WIDE
 Can you sign wide,WIDE
 Sign wide for me,WIDE
-Please sign wide,WIDE
+Show me winter,WINTER
+The word is winter,WINTER
+It is winter,WINTER
+He is winter,WINTER
+I want to say winter,WINTER
+You are winter,WINTER
+winter,WINTER
+How do you sign winter,WINTER
+I am winter,WINTER
+She is winter,WINTER
+It is yellow,YELLOW
+Can you sign yellow,YELLOW
+Show me yellow,YELLOW
+You are yellow,YELLOW
+The word is yellow,YELLOW
+yellow,YELLOW
+She is yellow,YELLOW
+I want to say yellow,YELLOW
+Sign yellow for me,YELLOW
+He is yellow,YELLOW
+How do you sign you,YOU
+you,YOU
+Sign you for me,YOU
+Can you sign you,YOU
+Show me you,YOU
+Please sign you,YOU
+She is you,YOU
+The word is you,YOU
+I want to say you,YOU
+I am you,YOU
+Please sign you plural,YOU PLURAL
+I want to say you plural,YOU PLURAL
+Show me you plural,YOU PLURAL
+It is you plural,YOU PLURAL
+you plural,YOU PLURAL
+Sign you plural for me,YOU PLURAL
+The word is you plural,YOU PLURAL
+Can you sign you plural,YOU PLURAL
+How do you sign you plural,YOU PLURAL
+She is you plural,YOU PLURAL
+She is young,YOUNG
+You are young,YOUNG
 Please sign young,YOUNG
-I want to say young,YOUNG
-Show me young,YOUNG
-How do you sign young,YOUNG
 Can you sign young,YOUNG
 young,YOUNG
+He is young,YOUNG
+I am young,YOUNG
+I want to say young,YOUNG
+It is young,YOUNG
+How do you sign young,YOUNG
