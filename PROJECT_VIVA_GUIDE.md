@@ -400,8 +400,7 @@ Skeleton representation is lightweight, interpretable, and easier to train/debug
 
 ---
 
-## 18) Final Summary for Examiner
-
+## 18) Final Summary 
 This is a **hybrid real-time text-to-sign skeleton system** with:
 
 - dataset-driven training,

@@ -44,7 +44,7 @@ def main():
     parser.add_argument("--train-dir", default="data/keypoints/train")
     parser.add_argument("--valid-dir", default="data/keypoints/valid")
     parser.add_argument("--checkpoint", default="outputs/checkpoints/pose_transformer.pt")
-    parser.add_argument("--epochs", type=int, default=100)
+    parser.add_argument("--epochs", type=int, default=70)
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--grad-accum", type=int, default=1)
     parser.add_argument("--learning-rate", type=float, default=3e-4)
